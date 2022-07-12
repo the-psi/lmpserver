@@ -53,17 +53,17 @@
   "courses": [
   {
     "id": "1",
-	"name": "",
+	"name": "NEET",
 	"rating":""
   },
   {
     "id": "3",
-	"name": "",
+	"name": "JEE",
 	"rating":""
   },
   {
     "id": "4",
-	"name": "",
+	"name": "12th",
 	"rating":""
   }
   ]
