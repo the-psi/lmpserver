@@ -76,7 +76,7 @@
 	  "city":"",
 	  "pincode":"",
 	  "state":"",
-	  "status":"Disabled",
+	  "status":"Inactive",
 	  "dob":"",
 	  "createDate":""
     },
@@ -108,7 +108,7 @@
 	  "city":"",
 	  "pincode":"",
 	  "state":"",
-	  "status":"Active",
+	  "status":"Inactive",
 	  "dob":"",
 	  "createDate":""
     },
@@ -162,21 +162,73 @@
     }
 	
   ],
+  "roles":[
+  {
+	  "id":"1",
+	  "name":"Admin",
+	  "permissions":""
+  },
+  {
+	  "id":"2",
+	  "name":"Teacher",
+	  "permissions":""
+  },
+  {
+	  "id":"3",
+	  "name":"Course Editor",
+	  "permissions":""
+  },
+  {
+	  "id":"4",
+	  "name":"Content Editor",
+	  "permissions":""
+  },
+  {
+	  "id":"5",
+	  "name":"Test Manager",
+	  "permissions":""
+  }
+  ],
+  
   "courses": [
   {
     "id": "1",
 	"name": "NEET",
-	"rating":""
+	"code":"",
+	"division":"",
+	"status":"",
+	"courseType":"",
+	"expireDate":"",
+	"visibilitydate":"",
+	"duration":"",
+	"promoVideo":"",
+	"description":""
   },
   {
     "id": "3",
 	"name": "JEE",
-	"rating":""
+	"code":"",
+	"division":"",
+	"status":"",
+	"courseType":"",
+	"expireDate":"",
+	"visibilitydate":"",
+	"duration":"",
+	"promoVideo":"",
+	"description":""	
   },
   {
     "id": "4",
 	"name": "12th",
-	"rating":""
-  }
+	"code":"",
+	"division":"",
+	"status":"",
+	"courseType":"",
+	"expireDate":"",
+	"visibilitydate":"",
+	"duration":"",
+	"promoVideo":"",
+	"description":""  
+	}
   ]
 }
